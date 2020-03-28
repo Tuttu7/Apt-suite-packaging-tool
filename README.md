@@ -84,4 +84,8 @@ If nginx package is already installed it will try to update to latest version
 apt-get --only-upgrade install nginx
 ```
 
+> Perform a Dry Run of Package Actions
 
+```
+apt-get install -s
+```
