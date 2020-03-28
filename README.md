@@ -87,5 +87,16 @@ apt-get --only-upgrade install nginx
 > Perform a Dry Run of Package Actions
 
 ```
-apt-get install -s
+apt-get install -s vsftpd
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  libatkmm-1.6-1v5 libcairomm-1.0-1v5 libglibmm-2.4-1v5 libgtkmm-3.0-1v5 libgtkspell3-3-0 libpangomm-1.4-1v5 libsigc++-2.0-0v5
+Use 'apt autoremove' to remove them.
+The following NEW packages will be installed:
+  vsftpd
+0 upgraded, 1 newly installed, 0 to remove and 17 not upgraded.
+Inst vsftpd (3.0.3-3ubuntu2 Ubuntu:16.04/xenial [amd64])
+Conf vsftpd (3.0.3-3ubuntu2 Ubuntu:16.04/xenial [amd64])
 ```
