@@ -100,3 +100,8 @@ The following NEW packages will be installed:
 Inst vsftpd (3.0.3-3ubuntu2 Ubuntu:16.04/xenial [amd64])
 Conf vsftpd (3.0.3-3ubuntu2 Ubuntu:16.04/xenial [amd64])
 ```
+> To list the packages currently installed in ubuntu based system
+
+```
+apt list --installed
+```
